@@ -2,35 +2,36 @@
 
 /**
  * is_palindrome - check if a singly linked list is a palindrome
+ * @left: pointer to a node
+ * @right: pointer to another node
+ * Return: 0 if it is not a palindrome, 1 if it is a palindrome
+ */
+int check_palindrome(listint_t **left, listint_t *right)
+{
+	int pal;
+
+	if (!right)
+		return (1);
+
+	pal = check_palindrome(left, right->next);
+
+	if (pal == 0)
+		return (0);
+
+	if ((*left)->n != right->n)
+		return (0);
+
+	*left = (*left)->next;
+
+	return (pal);
+}
+
+/**
+ * is_palindrome - check if a singly linked list is a palindrome
  * @head: linked list
  * Return: 0 if it is not a palindrome, 1 if it is a palindrome
  */
 int is_palindrome(listint_t **head)
 {
-	listint_t *ptr1 = *head, *ptr2 = *head;
-	int i, j, nb_nodes = 0;
-
-	if (!head)
-		return (1);
-
-	if (!*head)
-		return (1);
-
-	for (i = 0; ptr2->next != NULL; i++, nb_nodes++)
-		ptr2 = ptr2->next;
-
-	if (ptr1->n != ptr2->n)
-		return (0);
-
-	for (i = 0; ptr1->next != ptr2->next; i++)
-	{
-		ptr2 = *head;
-		for (j = 0; j != nb_nodes; j++)
-			ptr2 = ptr2->next;
-		if (ptr1->n != ptr2->n)
-			return (0);
-		ptr1 = ptr1->next;
-		nb_nodes--;
-	}
-	return (1);
+	return (check_palindrome(head, *head));
 }
