@@ -1,8 +1,4 @@
 #!/usr/bin/python3
-from decimal import DivisionByZero
-from hashlib import new
-
-
 def list_division(my_list_1, my_list_2, list_length):
     new_list = []
     for i in range(0, list_length):
