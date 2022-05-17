@@ -79,9 +79,10 @@ class SinglyLinkedList:
         """
         function automatically called when we print the linked list
         """
+        s = ''
         if self.__head:
             while self.__head.next_node:
-                print(self.__head.data)
+                s += str(self.__head.data) + '\n'
                 self.__head = self.__head.next_node
-            print(self.__head.data, end="")
-        return " "
+            s += str(self.__head.data)
+        return s
