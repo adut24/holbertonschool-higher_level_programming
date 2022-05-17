@@ -12,7 +12,10 @@ class Node:
         """
         method called when the instance is created
         """
-        self.__data = data
+        if isinstance(data, int):
+            self.__data = data
+        else:
+            raise TypeError('data must be an integer')
         self.__next_node = next_node
 
     @property
@@ -65,10 +68,7 @@ class SinglyLinkedList:
         insert a node sorted by numerical value in the linked list
         """
         cur = self.__head
-        if cur is None:
-            self.__head = Node(value)
-            return
-        if cur.data > value:
+        if cur is None or cur.data > value:
             self.__head = Node(value, self.__head)
             return
         while cur.next_node is not None and cur.next_node.data < value:
