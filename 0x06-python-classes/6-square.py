@@ -2,6 +2,8 @@
 """
 module 6-square
 """
+
+
 class Square:
     """
     class Square defining a square by size
@@ -53,8 +55,9 @@ class Square:
             print()
             return
         for i in range(self.__size):
-            for p in range(self.__position[0]):
-                print(" ", end='')
+            if self.__position[1] <= self.__position[0]:
+                for p in range(self.__position[0]):
+                    print(" ", end='')
             for j in range(self.__size):
                 print('#', end='')
             print()
@@ -72,8 +75,8 @@ class Square:
         change the position of the square
         """
         if type(value) is not tuple and len(value) != 2 and\
-        type(value[0]) is not int and type(value[1]) is not int and\
-        value[0] < 0 and value[1] < 0:
+            type(value[0]) is not int and type(value[1]) is not int and\
+                value[0] < 0 and value[1] < 0:
             raise TypeError('position must be a tuple of 2 positive integers')
         else:
             self.__position = value
