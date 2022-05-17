@@ -49,6 +49,7 @@ class Node:
         else:
             raise TypeError('next_node must be a Node object')
 
+
 class SinglyLinkedList:
     """
     class creating a singly linked list
