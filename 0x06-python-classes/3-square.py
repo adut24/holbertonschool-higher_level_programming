@@ -2,6 +2,8 @@
 """
 module 3-square
 """
+
+
 class Square:
     """
     class Square defining a square by size
