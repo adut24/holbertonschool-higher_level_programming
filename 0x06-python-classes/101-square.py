@@ -67,7 +67,7 @@ class Square:
             for j in range(self.__size):
                 s += '#'
             s += '\n'
-        return s
+        return s[:-1]
 
     @property
     def position(self):
