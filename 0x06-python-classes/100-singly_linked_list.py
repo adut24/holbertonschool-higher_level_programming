@@ -44,7 +44,7 @@ class Node:
         """
         change the next node
         """
-        if isinstance(value, Node) or value is None:
+        if isinstance(value, Node):
             self.__next_node = value
         else:
             raise TypeError('next_node must be a Node object')
