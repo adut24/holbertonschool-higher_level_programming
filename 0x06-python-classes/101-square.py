@@ -4,9 +4,6 @@ module 6-square
 """
 
 
-from re import S
-
-
 class Square:
     """
     class Square defining a square by size
