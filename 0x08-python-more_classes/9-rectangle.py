@@ -13,11 +13,11 @@ class Rectangle:
             raise TypeError('height must be an integer')
         if height < 0:
             raise ValueError('height must be >= 0')
-        self.__height = height
         if not isinstance(width, int):
             raise TypeError('width must be an integer')
         if width < 0:
             raise ValueError('width must be >= 0')
+        self.__height = height
         self.__width = width
         Rectangle.number_of_instances += 1
 
@@ -80,7 +80,6 @@ class Rectangle:
             return 0
         return self.__height * 2 + self.__width * 2
 
-    @staticmethod
     def bigger_or_equal(rect_1, rect_2):
         """return the biggest Rectangle based on the area"""
         if not isinstance(rect_1, Rectangle):
