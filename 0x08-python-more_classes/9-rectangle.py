@@ -21,6 +21,27 @@ class Rectangle:
         self.__width = width
         Rectangle.number_of_instances += 1
 
+    def __str__(self):
+        """return the rectangle to print"""
+        ch = ''
+        if self.__height == 0 or self.__width == 0:
+            return ch
+        for i in range(self.__height):
+            for j in range(self.__width):
+                ch += str(self.print_symbol)
+            ch += '\n'
+        return ch[:-1]
+
+    def __repr__(self):
+        """return the command to create the same rectangle"""
+        s = 'Rectangle(' + str(self.__width) + ', ' + str(self.__height) + ')'
+        return s
+
+    def __del__(self):
+        """delete the current Rectangle"""
+        print(f"Bye rectangle...")
+        Rectangle.number_of_instances -= 1
+
     @property
     def width(self):
         """return the width"""
@@ -58,27 +79,6 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return 0
         return self.__height * 2 + self.__width * 2
-
-    def __str__(self):
-        """return the rectangle to print"""
-        ch = ''
-        if self.__height == 0 or self.__width == 0:
-            return ch
-        for i in range(self.__height):
-            for j in range(self.__width):
-                ch += str(self.print_symbol)
-            ch += '\n'
-        return ch[:-1]
-
-    def __repr__(self):
-        """return the command to create the same rectangle"""
-        s = 'Rectangle(' + str(self.__width) + ', ' + str(self.__height) + ')'
-        return s
-
-    def __del__(self):
-        """delete the current Rectangle"""
-        print(f"Bye rectangle...")
-        Rectangle.number_of_instances -= 1
 
     @staticmethod
     def bigger_or_equal(rect_1, rect_2):
