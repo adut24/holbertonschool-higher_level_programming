@@ -72,8 +72,7 @@ class Rectangle:
 
     def __repr__(self):
         """return the command to create the same rectangle"""
-        s = 'Rectangle(' + str(self.__width) + ', ' + str(self.__height) + ')'
-        return s
+        return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
 
     def __del__(self):
         """delete the current Rectangle"""
