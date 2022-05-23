@@ -72,13 +72,15 @@ class Rectangle:
 
     def __repr__(self):
         """return the command to create the same rectangle"""
-        return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
+        s = 'Rectangle(' + str(self.__width) + ', ' + str(self.__height) + ')'
+        return s
 
     def __del__(self):
         """delete the current Rectangle"""
         print(f"Bye rectangle...")
         Rectangle.number_of_instances -= 1
 
+    @staticmethod
     def bigger_or_equal(rect_1, rect_2):
         """return the biggest Rectangle based on the area"""
         if not isinstance(rect_1, Rectangle):
