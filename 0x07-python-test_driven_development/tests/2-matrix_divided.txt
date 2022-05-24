@@ -1,0 +1,67 @@
+The ``2-matrix_divided`` module test file
+=========================================
+
+    >>> matrix_divided = __import__('2-matrix_divided').matrix_divided
+
+    >>> matrix_divided([[1, 2, 3], [4, 5, 6]], 2)
+    [[0.5, 1.0, 1.5], [2.0, 2.5, 3.0]]
+
+    >>> matrix_divided([[1, 2, 3], [4, 5, 6]], -2)
+    [[-0.5, -1.0, -1.5], [-2.0, -2.5, -3.0]]
+
+    >>> matrix_divided([[10.3567, 2.789, 31], [4, 0, 6]], 3.60)
+    [[2.88, 0.77, 8.61], [1.11, 0.0, 1.67]]
+
+    >>> matrix_divided([[1, 2, 3], [4, 5, 6]], float("NaN"))
+    [[nan, nan, nan], [nan, nan, nan]]
+
+    >>> matrix_divided([[1, 2, 3], [4, 5, 6]], float("inf"))
+    [[0.0, 0.0, 0.0], [0.0, 0.0, 0.0]]
+
+    >>> matrix_divided([[1, 2, 3], [4, 5, 6]], int("Holberton"))
+    Traceback (most recent call last):
+    ValueError: invalid literal for int() with base 10: 'Holberton'
+
+    >>> matrix_divided([[1, 2, 3], [4, 5, 6]], float("Holberton"))
+    Traceback (most recent call last):
+    ValueError: could not convert string to float: 'Holberton'
+
+    >>> matrix_divided([[1, 2, 3], [4, 5, 6]], 0)
+    Traceback (most recent call last):
+    ZeroDivisionError: division by zero
+
+    >>> matrix_divided([[9, 3, 10], [3, 2, 1]], "Test")
+    Traceback (most recent call last):
+    TypeError: div must be a number
+
+    >>> matrix_divided(10.43, 2.56)
+    Traceback (most recent call last):
+    TypeError: object of type 'float' has no len()
+
+    >>> matrix_divided(10, 2.56)
+    Traceback (most recent call last):
+    TypeError: object of type 'int' has no len()
+
+    >>> matrix_divided("School", 2)
+    Traceback (most recent call last):
+    AttributeError: 'str' object has no attribute 'copy'
+
+    >>> matrix_divided({12, 23, 232}, 2)
+    Traceback (most recent call last):
+    TypeError: 'set' object is not subscriptable
+
+    >>> matrix_divided({'id': 23, 'age': 20}, 2)
+    Traceback (most recent call last):
+    KeyError: 0
+
+    >>> matrix_divided([[9, 10], [3, 2, 1]], 9)
+    Traceback (most recent call last):
+    TypeError: Each row of the matrix must have the same size
+
+    >>> matrix_divided([[1, 2, 3], [4, 5, 6]])
+    Traceback (most recent call last):
+    TypeError: matrix_divided() missing 1 required positional argument: 'div'
+
+    >>> matrix_divided()
+    Traceback (most recent call last):
+    TypeError: matrix_divided() missing 2 required positional arguments: 'matrix' and 'div'

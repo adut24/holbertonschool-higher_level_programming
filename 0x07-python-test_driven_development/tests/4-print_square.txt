@@ -1,0 +1,40 @@
+The ``4-print_square`` module test file
+=========================================
+
+    >>> print_square = __import__('4-print_square').print_square
+
+    >>> print_square(2)
+    ##
+    ##
+
+    >>> print_square(-5)
+    Traceback (most recent call last):
+    ValueError: size must be >= 0
+
+    >>> print_square(5.9213091)
+    Traceback (most recent call last):
+    TypeError: size must be an integer
+
+    >>> print_square((1, 2))
+    Traceback (most recent call last):
+    TypeError: size must be an integer
+
+    >>> print_square({1, 2})
+    Traceback (most recent call last):
+    TypeError: size must be an integer
+
+    >>> print_square({'id': 1, 'age': 20})
+    Traceback (most recent call last):
+    TypeError: size must be an integer
+
+    >>> print_square(int("Hello"))
+    Traceback (most recent call last):
+    ValueError: invalid literal for int() with base 10: 'Hello'
+
+    >>> print_square(float("School"))
+    Traceback (most recent call last):
+    ValueError: could not convert string to float: 'School'
+
+    >>> print_square()
+    Traceback (most recent call last):
+    TypeError: print_square() missing 1 required positional argument: 'size'
