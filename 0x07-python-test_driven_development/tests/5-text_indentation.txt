@@ -52,14 +52,18 @@ The ``5-text_indentation`` module test file
 
     >>> text_indentation(":?.")
     :
+    <BLANKLINE>
     ?
+    <BLANKLINE>
     .
+    <BLANKLINE>
 
     >>> text_indentation(str(450))
     450
 
     >>> text_indentation("Holberton.School")
     Holberton.
+    <BLANKLINE>
     School
 
     >>> text_indentation(13)
