@@ -17,10 +17,10 @@ def text_indentation(text):
     for c in text:
         if c in new_line:
             print(c)
+            print()
             check = 1
         else:
             if c == ' ' and check == 1:
-                print()
                 check = 2
                 continue
             elif c == ' ' and check == 2:
