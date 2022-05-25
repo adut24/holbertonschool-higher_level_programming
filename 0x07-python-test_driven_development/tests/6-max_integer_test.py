@@ -27,6 +27,8 @@ class TestMaxInteger(unittest.TestCase):
         self.assertAlmostEqual(max_integer(test_list), 22)
         test_list = [-22, -3.14, -0.232, -4, -123]
         self.assertAlmostEqual(max_integer(test_list), -0.232)
+        test_list = [1]
+        self.assertAlmostEqual(max_integer(test_list), 1)
 
     def test_types(self):
         """test the function with different types of data"""

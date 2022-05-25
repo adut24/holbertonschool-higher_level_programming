@@ -58,6 +58,19 @@ The ``5-text_indentation`` module test file
     >>> text_indentation(str(450))
     450
 
+    >>> text_indentation("Holberton.School")
+    Holberton.
+    School
+
+    >>> text_indentation("Holberton. School? How are you: John")
+    Holberton.
+    <BLANKLINE>
+    School?
+    <BLANKLINE>
+    How are you:
+    <BLANKLINE>
+    John
+
     >>> text_indentation(13)
     Traceback (most recent call last):
     TypeError: text must be a string
