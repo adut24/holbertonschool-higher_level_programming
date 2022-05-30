@@ -38,3 +38,18 @@ The ``1-my_list`` module test file
     Traceback (most recent call last):
     TypeError: integer_validator() missing 1 required positional argument: 'value'
 
+    >>> bg.integer_validator("var", None)
+    Traceback (most recent call last):
+    TypeError: var must be an integer
+
+    >>> bg.integer_validator("var", [1, 2, 3])
+    Traceback (most recent call last):
+    TypeError: var must be an integer
+
+    >>> bg.integer_validator("var", {1, 2, 3})
+    Traceback (most recent call last):
+    TypeError: var must be an integer
+
+    >>> bg.integer_validator("var", {'id': 1, 'value': 2})
+    Traceback (most recent call last):
+    TypeError: var must be an integer
