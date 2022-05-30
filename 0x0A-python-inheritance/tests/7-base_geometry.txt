@@ -28,7 +28,7 @@ The ``1-my_list`` module test file
 
     >>> bg.integer_validator("var", (0, 1))
     Traceback (most recent call last):
-    TypeError: check must be an integer
+    TypeError: var must be an integer
 
     >>> bg.integer_validator()
     Traceback (most recent call last):
