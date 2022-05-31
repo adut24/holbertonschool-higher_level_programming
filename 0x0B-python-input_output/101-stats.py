@@ -31,4 +31,3 @@ for line in fileinput.input():
     stats[line[0]] += 1
     if count % 10 == 0:
         print_info(stats, size)
-print_info(stats, size)
