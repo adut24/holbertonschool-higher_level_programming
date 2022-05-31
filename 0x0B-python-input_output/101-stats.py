@@ -27,7 +27,6 @@ signal.signal(signal.SIGINT, signal_handler)
 for line in fileinput.input():
     count += 1
     line = line.split()[-2:]
-    print(line)
     size += int(line[1])
     if line[0] in stats:
         stats[line[0]] += 1
