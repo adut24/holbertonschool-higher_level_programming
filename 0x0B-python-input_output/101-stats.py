@@ -8,7 +8,7 @@ import sys
 def print_info(stats, size):
     """print the informations"""
     print(f"File size: {size}")
-    for k, v in stats.items():
+    for k, v in sorted(stats.items()):
         if v != 0:
             print(f"{k}: {v}")
 
@@ -16,7 +16,7 @@ def print_info(stats, size):
 def signal_handler(sig, frame):
     """called if Ctrl+C is pressed"""
     print_info(stats, size)
-    sys.stdin.flush()
+    sys.stdout.flush()
     sys.exit(0)
 
 
