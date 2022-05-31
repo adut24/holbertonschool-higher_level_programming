@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """student module"""
-import json
 
 
 class Student:
@@ -13,4 +12,4 @@ class Student:
 
     def to_json(self):
         """retrieve a dictionary representation of the instance"""
-        return json.loads(json.dumps(self.__dict__))
+        return self.__dict__
