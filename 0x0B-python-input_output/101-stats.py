@@ -6,19 +6,23 @@ import sys
 
 
 def print_info(stats, size):
+    """print the informations"""
     print(f"File size: {size}")
     for k, v in stats.items():
         if v != 0:
             print(f"{k}: {v}")
 
+
 def signal_handler(sig, frame):
+    """called if Ctrl+C is pressed"""
     print_info(stats, size)
     sys.exit(0)
 
+
 count = 0
 size = 0
-stats = {'200': 0, '301': 0, '400': 0, '401': 0, '403': 0, '404': 0, \
-    '405': 0, '500': 0}
+stats = {'200': 0, '301': 0, '400': 0, '401': 0, '403': 0, '404': 0,
+         '405': 0, '500': 0}
 for line in fileinput.input():
     count += 1
     line = line.split()[-2:]
