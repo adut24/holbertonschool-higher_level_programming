@@ -9,7 +9,7 @@ def print_info(stats, size):
     """print the informations"""
     print(f"File size: {size}")
     for k, v in sorted(stats.items()):
-        if v != 0:
+        if v:
             print(f"{k}: {v}")
 
 
@@ -28,7 +28,6 @@ for line in fileinput.input():
     count += 1
     line = line.split()[-2:]
     size += int(line[1])
-    value = stats.get(line[0]) + 1
-    stats.update({line[0]: value})
+    stats[line[0]] += 1
     if count % 10 == 0:
         print_info(stats, size)
