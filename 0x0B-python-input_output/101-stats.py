@@ -16,7 +16,7 @@ def print_info(stats, size):
 def signal_handler(sig, frame):
     """called if Ctrl+C is pressed"""
     print_info(stats, size)
-    sys.stdout.flush()
+    sys.stdin.flush()
     sys.exit(0)
 
 
