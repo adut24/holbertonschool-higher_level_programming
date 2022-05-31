@@ -25,10 +25,10 @@ stats = {'200': 0, '301': 0, '400': 0, '401': 0, '403': 0, '404': 0,
 signal.signal(signal.SIGINT, signal_handler)
 for line in fileinput.input():
     count += 1
-    line = line.split()[-2:]
-    size += int(line[1])
-    if line[0] in stats:
-        stats[line[0]] += 1
+    line = line.split()
+    size += int(line[-1])
+    if line[-2] in stats:
+        stats[line[-2]] += 1
     if count % 10 == 0:
         print_info(stats, size)
 print_info(stats, size)
