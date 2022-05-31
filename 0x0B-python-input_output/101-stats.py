@@ -9,12 +9,7 @@ def print_info(stats, size):
     for k, v in sorted(stats.items()):
         if v:
             print("{}: {}".format(k, v))
-
-
-def signal_handler(sig, frame):
-    """called if Ctrl+C is pressed"""
-    print_info(stats, size)
-
+            
 
 count = 0
 size = 0
