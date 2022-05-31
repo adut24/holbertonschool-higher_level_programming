@@ -3,14 +3,6 @@
 import sys
 
 
-def print_info(stats, size):
-    """print the informations"""
-    print(f"File size: {size}")
-    for k, v in sorted(stats.items()):
-        if v:
-            print(f"{k}: {v}")
-
-
 count = 0
 size = 0
 stats = {'200': 0, '301': 0, '400': 0, '401': 0, '403': 0, '404': 0,
@@ -24,6 +16,12 @@ try:
             stats[line[0]] += 1
         size += int(line[1])
         if count % 10 == 0:
-            print_info(stats, size)
+            print(f"File size: {size}")
+            for k, v in sorted(stats.items()):
+                if v:
+                    print(f"{k}: {v}")
 except KeyboardInterrupt:
-    print_info(stats, size)
+    print(f"File size: {size}")
+    for k, v in sorted(stats.items()):
+        if v:
+            print(f"{k}: {v}")
