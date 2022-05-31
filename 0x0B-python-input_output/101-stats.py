@@ -5,10 +5,10 @@ import sys
 
 def print_info(stats, size):
     """print the informations"""
-    print("File size: {}".format(size))
+    print(f"File size: {size}")
     for k, v in sorted(stats.items()):
         if v:
-            print("{}: {}".format(k, v))
+            print(f"{k}: {v}")
 
 
 count = 0
@@ -19,9 +19,8 @@ try:
     for line in sys.stdin:
         count += 1
         line = line.split()[-2:]
-        if line[0] in stats:
-            stats[line[0]] += 1
         size += int(line[1])
+        stats[line[0]] += 1
         if count % 10 == 0:
             print_info(stats, size)
     print_info(stats, size)
