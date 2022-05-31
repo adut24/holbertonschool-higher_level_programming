@@ -23,10 +23,9 @@ for line in fileinput.input():
     count += 1
     line = line.split()[-2:]
     size += int(line[1])
-    if line[0] in stats:
-        value = stats.get(line[0])
-        value += 1
-        stats.update({line[0]: value})
+    value = stats.get(line[0])
+    value += 1
+    stats.update({line[0]: value})
     if count % 10 == 0:
         print_info(stats, size)
     signal.signal(signal.SIGINT, signal_handler)
