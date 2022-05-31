@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """student module"""
-import json
 
 
 class Student:
@@ -14,8 +13,8 @@ class Student:
     def to_json(self, attrs=None):
         """retrieve a dictionary representation of the instance"""
         if attrs is None:
-            return json.loads(json.dumps(self.__dict__))
-        a = dict({})
+            return self.__dict__
+        a = dict()
         for k, v in self.__dict__.items():
             if k in attrs:
                 a.update({k: v})
