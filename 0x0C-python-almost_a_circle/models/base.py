@@ -31,7 +31,7 @@ class Base:
         """write the JSON string to a file"""
         if list_objs is None:
             with open(f'{cls.__name__}.json', 'w') as f:
-                f.write('')
+                f.write('[]')
         else:
             a = []
             for i in list_objs:
