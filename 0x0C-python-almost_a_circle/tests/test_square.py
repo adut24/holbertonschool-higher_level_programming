@@ -14,3 +14,6 @@ class Square(Rectangle):
         """ Special Method STR """
         st = "[Square] ({:d}) {:d}/{:d} - {:d}"
         return st.format(self.id, self.x, self.y, self.width)
+
+if __name__ == "__main__":
+    unittest.main()
