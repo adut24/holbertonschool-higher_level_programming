@@ -42,5 +42,6 @@ class TestRectangle(unittest.TestCase):
         a = Rectangle(1, 2)
         self.assertRaises(TypeError, a.to_dictionary, None)
 
-    if __name__ == "__main__":
-        unittest.main()
+
+if __name__ == "__main__":
+    unittest.main()

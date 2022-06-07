@@ -165,7 +165,6 @@ class TestUpdate(unittest.TestCase):
 
     def test_update26(self):
         """ test with 4 attributes and without args"""
-        Base._Base__nb_objects = 0
         a = Rectangle(10, 10, 10, 10)
         a.update()
         self.assertEqual('[Rectangle] (1) 10/10 - 10/10', str(a))

@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Unit test for the load_from_file method of the Base class
 """
@@ -61,6 +62,3 @@ class TestSquareSize(unittest.TestCase):
         """Test calling the function with an additional argument"""
         with self.assertRaises(TypeError):
             Base.load_from_file("Hello")
-
-if __name__ == "__main__":
-    unittest.main()

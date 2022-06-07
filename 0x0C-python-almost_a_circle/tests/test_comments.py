@@ -2,7 +2,6 @@
 """
     Unittest for Base
 """
-
 import unittest
 import pycodestyle
 from models import base

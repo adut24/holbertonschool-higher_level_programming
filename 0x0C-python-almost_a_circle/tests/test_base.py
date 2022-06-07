@@ -2,11 +2,9 @@
 """
     Unittest for Base
 """
-
 import unittest
 from models import base
 Base = base.Base
-
 
 
 class TestBase(unittest.TestCase):
@@ -17,7 +15,6 @@ class TestBase(unittest.TestCase):
         """
             test if value of id has the good assignment
         """
-        Base._Base__nb_objects = 0
         b1 = Base()
         b2 = Base()
         b3 = Base()

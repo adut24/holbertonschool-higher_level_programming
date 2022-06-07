@@ -57,7 +57,7 @@ class TestRectangle(unittest.TestCase):
         with self.assertRaises(TypeError):
             Rectangle(2, float('inf'))
         with self.assertRaises(TypeError):
-            Rectangle(10,"hello" ,2 , 0, 12)
+            Rectangle(10, "hello", 2, 0, 12)
         with self.assertRaises(TypeError):
             Rectangle(10, {1, 2}, 0, 0, 12)
 
@@ -83,7 +83,7 @@ class TestRectangle(unittest.TestCase):
         with self.assertRaises(TypeError):
             Rectangle(10, 2, "hello", 0, 12)
         with self.assertRaises(TypeError):
-            Rectangle(10, 2, {1 , 2}, 0, 12)
+            Rectangle(10, 2, {1, 2}, 0, 12)
 
     def test_y_is_integer(self):
         """
@@ -107,7 +107,7 @@ class TestRectangle(unittest.TestCase):
         with self.assertRaises(TypeError):
             Rectangle(10, 2, 0, "hello", 12)
         with self.assertRaises(TypeError):
-            Rectangle(10, 2, 0, {1 , 2}, 12)
+            Rectangle(10, 2, 0, {1, 2}, 12)
 
     def test_area(self):
         """

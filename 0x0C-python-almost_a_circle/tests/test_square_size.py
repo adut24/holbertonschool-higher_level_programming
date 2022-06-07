@@ -67,6 +67,3 @@ class TestSquareSize(unittest.TestCase):
         my_square = Square(2)
         with self.assertRaises(TypeError):
             my_square.size = {4}
-
-if __name__ == "__main__":
-    unittest.main()
