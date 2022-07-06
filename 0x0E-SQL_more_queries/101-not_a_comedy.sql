@@ -1,3 +1,5 @@
+-- List all shows without the genre Comedy
+-- Query that lists all shows without the genre Comedy
 SELECT title FROM tv_shows
 WHERE title NOT IN (SELECT title FROM tv_shows
 	INNER JOIN tv_show_genres ON tv_show_genres.show_id = tv_shows.id
