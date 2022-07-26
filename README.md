@@ -1,7 +1,8 @@
 # holbertonschool-higher_level_programming
-This repository contains 2 projects:
+This repository contains 3 projects:
 - 0x00. Python - Hello, World
 - 0x01. Python - if/else, loops, functions
+- 0x02. Python - import & modules
 
 ## Learning Objectives
 ### 0x00. Python - Hello, World
@@ -33,3 +34,12 @@ This repository contains 2 projects:
 Scope of variables
 - What’s a traceback
 - What are the arithmetic operators and how to use them
+
+### 0x02. Python - import & modules
+- Why Python programming is awesome
+- How to import functions from another file
+- How to use imported functions
+- How to create a module
+- How to use the built-in function `dir()`
+- How to prevent code in your script from being executed when imported
+- How to use command line arguments with your Python programs
