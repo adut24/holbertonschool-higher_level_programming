@@ -1,5 +1,5 @@
 # holbertonschool-higher_level_programming
-This repository contains 7 projects:
+This repository contains 8 projects:
 - 0x00. Python - Hello, World
 - 0x01. Python - if/else, loops, functions
 - 0x02. Python - import & modules
@@ -7,6 +7,7 @@ This repository contains 7 projects:
 - 0x04. Python - More Data Structures: Set, Dictionary
 - 0x05. Python - Exceptions
 - 0x06. Python - Classes and Objects
+- 0x07. Python - Test-driven development
 
 ## Learning Objectives
 ### 0x00. Python - Hello, World
@@ -85,7 +86,7 @@ Scope of variables
 - How to raise a builtin exception
 - When do we need to implement a clean-up action after an exception
 
-## 0x06. Python - Classes and Objects
+### 0x06. Python - Classes and Objects
 - Why Python programming is awesome
 - What is OOP
 - “first-class everything”
@@ -106,3 +107,12 @@ Scope of variables
 - What is the `__dict__` of a class and/or instance of a class and what does it contain
 - How does Python find the attributes of an object or class
 - How to use the `getattr` function
+
+### 0x07. Python - Test-driven development
+- Why Python programming is awesome
+- What’s an interactive test
+- Why tests are important
+- How to write Docstrings to create tests
+- How to write documentation for each module and function
+- What are the basic option flags to create tests
+- How to find edge cases
