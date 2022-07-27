@@ -1,11 +1,12 @@
 # holbertonschool-higher_level_programming
-This repository contains 6 projects:
+This repository contains 7 projects:
 - 0x00. Python - Hello, World
 - 0x01. Python - if/else, loops, functions
 - 0x02. Python - import & modules
 - 0x03. Python - Data Structures: Lists, Tuples
 - 0x04. Python - More Data Structures: Set, Dictionary
 - 0x05. Python - Exceptions
+- 0x06. Python - Classes and Objects
 
 ## Learning Objectives
 ### 0x00. Python - Hello, World
@@ -83,3 +84,25 @@ Scope of variables
 - What’s the purpose of catching exceptions
 - How to raise a builtin exception
 - When do we need to implement a clean-up action after an exception
+
+## 0x06. Python - Classes and Objects
+- Why Python programming is awesome
+- What is OOP
+- “first-class everything”
+- What is a class
+- What is an object and an instance
+- What is the difference between a class and an object or instance
+- What is an attribute
+- What are and how to use public, protected and private attributes
+- What is `self`
+- What is a method
+- What is the special `__init__` method and how to use it
+- What is Data Abstraction, Data Encapsulation, and Information Hiding
+- What is a property
+- What is the difference between an attribute and a property in Python
+- What is the Pythonic way to write getters and setters in Python
+- How to dynamically create arbitrary new attributes for existing instances of a class
+- How to bind attributes to object and classes
+- What is the `__dict__` of a class and/or instance of a class and what does it contain
+- How does Python find the attributes of an object or class
+- How to use the `getattr` function
