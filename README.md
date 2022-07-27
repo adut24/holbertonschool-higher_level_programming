@@ -1,5 +1,5 @@
 # holbertonschool-higher_level_programming
-This repository contains 9 projects:
+This repository contains 10 projects:
 - 0x00. Python - Hello, World
 - 0x01. Python - if/else, loops, functions
 - 0x02. Python - import & modules
@@ -9,6 +9,7 @@ This repository contains 9 projects:
 - 0x06. Python - Classes and Objects
 - 0x07. Python - Test-driven development
 - 0x08. Python - More Classes and Objects
+- 0x09. Python - Everything is object
 
 ## Learning Objectives
 ### 0x00. Python - Hello, World
@@ -145,3 +146,19 @@ Scope of variables
 - What is and what does contain `__dict__` of a class and of an instance of a class
 - How does Python find the attributes of an object or class
 - How to use the `getattr` function
+
+### 0x09. Python - Everything is object
+- Why Python programming is awesome
+- What is an object
+- What is the difference between a class and an object or instance
+- What is the difference between immutable object and mutable object
+- What is a reference
+- What is an assignment
+- What is an alias
+- How to know if two variables are identical
+- How to know if two variables are linked to the same object
+- How to display the variable identifier (which is the memory address in the CPython implementation)
+- What is mutable and immutable
+- What are the built-in mutable types
+- What are the built-in immutable types
+- How does Python pass variables to functions
