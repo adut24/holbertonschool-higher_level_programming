@@ -1,15 +1,16 @@
 # holbertonschool-higher_level_programming
-This repository contains 5 projects:
+This repository contains 6 projects:
 - 0x00. Python - Hello, World
 - 0x01. Python - if/else, loops, functions
 - 0x02. Python - import & modules
 - 0x03. Python - Data Structures: Lists, Tuples
 - 0x04. Python - More Data Structures: Set, Dictionary
+- 0x05. Python - Exceptions
 
 ## Learning Objectives
 ### 0x00. Python - Hello, World
 - Why Python programming is awesome
-- Who created Python
+- Who created PythonV
 - Who is Guido van Rossum
 - Where does the name ‘Python’ come from
 - What is the Zen of Python
@@ -72,3 +73,13 @@ Scope of variables
 - How to iterate over a dictionary
 - What is a lambda function
 - What are the map, reduce and filter functions
+
+### 0x05. Python - Exceptions
+- Why Python programming is awesome
+- What’s the difference between errors and exceptions
+- What are exceptions and how to use them
+- When do we need to use exceptions
+- How to correctly handle an exception
+- What’s the purpose of catching exceptions
+- How to raise a builtin exception
+- When do we need to implement a clean-up action after an exception
