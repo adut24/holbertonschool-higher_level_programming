@@ -1,5 +1,5 @@
 # holbertonschool-higher_level_programming
-This repository contains 14 projects:
+This repository contains 15 projects:
 - 0x00. Python - Hello, World
 - 0x01. Python - if/else, loops, functions
 - 0x02. Python - import & modules
@@ -14,6 +14,7 @@ This repository contains 14 projects:
 - 0x0B. Python - Input/Output
 - 0x0C. Python - Almost a circle
 - 0x0D. SQL - Introduction
+- 0x0E. SQL - More queries
 
 ## Learning Objectives
 ### 0x00. Python - Hello, World
@@ -216,3 +217,13 @@ Scope of variables
 - How to `INSERT`, `UPDATE` or `DELETE` data
 - What are `subqueries`
 - How to use MySQL functions
+
+### 0x0E. SQL - More queries
+- How to create a new MySQL user
+- How to manage privileges for a user to a database or table
+- What’s a `PRIMARY KEY`
+- What’s a `FOREIGN KEY`
+- How to use `NOT NULL` and `UNIQUE` constraints
+- How to retrieve datas from multiple tables in one request
+- What are subqueries
+- What are `JOIN` and `UNION`
