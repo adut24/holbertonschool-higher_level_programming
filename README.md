@@ -1,5 +1,5 @@
 # holbertonschool-higher_level_programming
-This repository contains 10 projects:
+This repository contains 11 projects:
 - 0x00. Python - Hello, World
 - 0x01. Python - if/else, loops, functions
 - 0x02. Python - import & modules
@@ -10,6 +10,7 @@ This repository contains 10 projects:
 - 0x07. Python - Test-driven development
 - 0x08. Python - More Classes and Objects
 - 0x09. Python - Everything is object
+- 0x0A. Python - Inheritance
 
 ## Learning Objectives
 ### 0x00. Python - Hello, World
@@ -162,3 +163,17 @@ Scope of variables
 - What are the built-in mutable types
 - What are the built-in immutable types
 - How does Python pass variables to functions
+
+### 0x0A. Python - Inheritance
+- Why Python programming is awesome
+- What is a superclass, baseclass or parentclass
+- What is a subclass
+- How to list all attributes and methods of a class or instance
+- When can an instance have new attributes
+- How to inherit class from another
+- How to define a class with multiple base classes
+- What is the default class every class inherit from
+- How to override a method or attribute inherited from the base class
+- Which attributes or methods are available by heritage to subclasses
+- What is the purpose of inheritance
+- What are, when and how to use `isinstance`, `issubclass`, `type` and `super` built-in functions
