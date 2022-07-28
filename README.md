@@ -1,5 +1,5 @@
 # holbertonschool-higher_level_programming
-This repository contains 12 projects:
+This repository contains 13 projects:
 - 0x00. Python - Hello, World
 - 0x01. Python - if/else, loops, functions
 - 0x02. Python - import & modules
@@ -12,6 +12,7 @@ This repository contains 12 projects:
 - 0x09. Python - Everything is object
 - 0x0A. Python - Inheritance
 - 0x0B. Python - Input/Output
+- 0x0C. Python - Almost a circle
 
 ## Learning Objectives
 ### 0x00. Python - Hello, World
@@ -193,3 +194,11 @@ Scope of variables
 - What is deserialization
 - How to convert a Python data structure to a JSON string
 - How to convert a JSON string to a Python data structure
+
+### 0x0C. Python - Almost a circle
+- What is Unit testing and how to implement it in a large project
+- How to serialize and deserialize a Class
+- How to write and read a JSON file
+- What is `*args` and how to use it
+- What is `**kwargs` and how to use it
+- How to handle named arguments in a function
