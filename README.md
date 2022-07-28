@@ -1,5 +1,5 @@
 # holbertonschool-higher_level_programming
-This repository contains 11 projects:
+This repository contains 12 projects:
 - 0x00. Python - Hello, World
 - 0x01. Python - if/else, loops, functions
 - 0x02. Python - import & modules
@@ -11,6 +11,7 @@ This repository contains 11 projects:
 - 0x08. Python - More Classes and Objects
 - 0x09. Python - Everything is object
 - 0x0A. Python - Inheritance
+- 0x0B. Python - Input/Output
 
 ## Learning Objectives
 ### 0x00. Python - Hello, World
@@ -177,3 +178,18 @@ Scope of variables
 - Which attributes or methods are available by heritage to subclasses
 - What is the purpose of inheritance
 - What are, when and how to use `isinstance`, `issubclass`, `type` and `super` built-in functions
+
+### 0x0B. Python - Input/Output
+- Why Python programming is awesome
+- How to open a file
+- How to write text in a file
+- How to read the full content of a file
+- How to read a file line by line
+- How to move the cursor in a file
+- How to make sure a file is closed after using it
+- What is and how to use the `with` statement
+- What is `JSON`
+- What is serialization
+- What is deserialization
+- How to convert a Python data structure to a JSON string
+- How to convert a JSON string to a Python data structure
