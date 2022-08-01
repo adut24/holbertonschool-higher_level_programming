@@ -1,5 +1,5 @@
 # holbertonschool-higher_level_programming
-This repository contains 15 projects:
+This repository contains 16 projects:
 - 0x00. Python - Hello, World
 - 0x01. Python - if/else, loops, functions
 - 0x02. Python - import & modules
@@ -15,6 +15,7 @@ This repository contains 15 projects:
 - 0x0C. Python - Almost a circle
 - 0x0D. SQL - Introduction
 - 0x0E. SQL - More queries
+- 0x12. JavaScript - Warm up
 
 ## Learning Objectives
 ### 0x00. Python - Hello, World
@@ -227,3 +228,21 @@ Scope of variables
 - How to retrieve datas from multiple tables in one request
 - What are subqueries
 - What are `JOIN` and `UNION`
+
+### 0x12. JavaScript - Warm up
+- Why JavaScript programming is amazing
+- How to run a JavaScript script
+- How to create variables and constants
+- What are differences between `var`, `const` and `let`
+- What are all the data types available in JavaScript
+- How to use the `if`, `if ... else` statements
+- How to use comments
+- How to affect values to variables
+- How to use `while` and `for` loops
+- How to use `break` and `continue` statements
+- What is a function and how do you use functions
+- What does a function that does not use any `return` statement return
+- Scope of variables
+- What are the arithmetic operators and how to use them
+- How to manipulate dictionary
+- How to import a file
