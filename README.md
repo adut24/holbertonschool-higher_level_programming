@@ -1,5 +1,5 @@
 # holbertonschool-higher_level_programming
-This repository contains 16 projects:
+This repository contains 17 projects:
 - 0x00. Python - Hello, World
 - 0x01. Python - if/else, loops, functions
 - 0x02. Python - import & modules
@@ -16,6 +16,7 @@ This repository contains 16 projects:
 - 0x0D. SQL - Introduction
 - 0x0E. SQL - More queries
 - 0x12. JavaScript - Warm up
+- 0x13. JavaScript - Objects, Scopes and Closures
 
 ## Learning Objectives
 ### 0x00. Python - Hello, World
@@ -246,3 +247,13 @@ Scope of variables
 - What are the arithmetic operators and how to use them
 - How to manipulate dictionary
 - How to import a file
+
+### 0x13. JavaScript - Objects, Scopes and Closures
+- Why JavaScript programming is amazing
+- How to create an object in JavaScript
+- What `this` means
+- What `undefined` means
+- Why the variable type and scope is important
+- What is a closure
+- What is a prototype
+- How to inherit an object from another
