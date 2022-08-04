@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module listing all states"""
+"""Module listing the first state"""
 from model_state import Base, State
 from sqlalchemy import create_engine
 from sqlalchemy.orm import Session
