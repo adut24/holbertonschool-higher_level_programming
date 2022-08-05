@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module joining 2 tables"""
+"""Module adding 2 tables"""
 from relationship_state import Base, State
 from relationship_city import City
 from sqlalchemy import create_engine
