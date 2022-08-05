@@ -11,6 +11,7 @@ if __name__ == "__main__":
     engine = create_engine(url, pool_pre_ping=True)
 
     session = Session(engine)
-    for city, state in session.query(City, State).join(State)\
-        .order_by(City.id.asc()).all():
+    for city, state in session.query(
+            City, State).join(State).order_by(City.id.asc()).all():
         print('{}: ({}) {}'.format(state.name, city.id, city.name))
+    session.close()
