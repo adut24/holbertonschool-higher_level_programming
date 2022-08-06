@@ -9,6 +9,7 @@ if __name__ == "__main__":
     cur.execute("SELECT * FROM states WHERE name = '{}' ORDER BY id ASC;"
                 .format(argv[4]))
     res = cur.fetchone()
-    print(res)
+    if res is not None:
+        print(res)
     cur.close()
     db.close()
