@@ -13,7 +13,9 @@ if __name__ == "__main__":
                 FROM states
                 WHERE name = %(state)s
                 ORDER BY id ASC;""", {'state': argv[4]})
-    res = cur.fetchone()
-    print(res)
+    res = cur.fetchall()
+    for r in res:
+        if r[1] == argv[4]:
+            print(r)
     cur.close()
     db.close()
