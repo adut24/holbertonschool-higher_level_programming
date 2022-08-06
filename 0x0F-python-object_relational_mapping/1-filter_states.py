@@ -9,6 +9,7 @@ if __name__ == "__main__":
     cur.execute("SELECT * FROM states WHERE name LIKE 'N%' ORDER BY id ASC;")
     res = cur.fetchall()
     for r in res:
-        print(r)
+        if r is not None:
+            print(r)
     cur.close()
     db.close()
