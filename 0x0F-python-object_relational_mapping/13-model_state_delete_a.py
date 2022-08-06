@@ -10,8 +10,7 @@ if __name__ == "__main__":
     engine = create_engine(url, pool_pre_ping=True)
 
     session = Session(engine)
-    for state in session.query(State).order_by(State.id).all():
-        if 'a' in state.name:
-            session.delete(state)
+    for state in session.query(State).filter(State.name.contains('a')):
+        session.delete(state)
     session.commit()
     session.close()
