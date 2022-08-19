@@ -8,8 +8,5 @@ if __name__ == "__main__":
     url = ' https://api.github.com/user'
     session = requests.Session()
     response = session.get(url, auth=(sys.argv[1], sys.argv[2]))
-    try:
-        r = response.json()
-        print(r.get('id'))
-    except Exception:
-        print('None')
+    r = response.json()
+    print(r.get('id'))
