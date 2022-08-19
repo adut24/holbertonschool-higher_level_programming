@@ -7,4 +7,4 @@ import sys
 if __name__ == "__main__":
     session = requests.Session()
     response = session.get(sys.argv[1])
-    print(response.headers['X-Request-Id'])
+    print(response.headers.get('X-Request-Id'))

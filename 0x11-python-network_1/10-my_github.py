@@ -10,6 +10,6 @@ if __name__ == "__main__":
     response = session.get(url, auth=(sys.argv[1], sys.argv[2]))
     try:
         r = response.json()
-        print(r['id'])
+        print(r.get('id'))
     except Exception:
         print('None')
