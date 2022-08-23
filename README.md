@@ -17,6 +17,7 @@ This repository contains 19 projects:
 - 0x0E. SQL - More queries
 - 0x0F. Python - Object-relational mapping
 - 0x10. Python - Network #0
+- 0x11. Python - Network #1
 - 0x12. JavaScript - Warm up
 - 0x13. JavaScript - Objects, Scopes and Closures
 
@@ -258,6 +259,15 @@ Scope of variables
 - What an HTTP Cookie is
 - How to make a request with cURL
 - What happens when you type google.com in your browser (Application level)
+
+### 0x11. Python - Network #1
+- How to fetch internet resources with the Python package `urllib`
+- How to decode `urllib` body response
+- How to use the Python package `requests` #requestsiswaysimplerthanurllib
+- How to make HTTP `GET` request
+- How to make HTTP `POST`/`PUT`/etc. request
+- How to fetch JSON resources
+- How to manipulate data from an external service
 
 ### 0x12. JavaScript - Warm up
 - Why JavaScript programming is amazing
