@@ -1,5 +1,5 @@
 # holbertonschool-higher_level_programming
-This repository contains 17 projects:
+This repository contains 18 projects:
 - 0x00. Python - Hello, World
 - 0x01. Python - if/else, loops, functions
 - 0x02. Python - import & modules
@@ -15,6 +15,7 @@ This repository contains 17 projects:
 - 0x0C. Python - Almost a circle
 - 0x0D. SQL - Introduction
 - 0x0E. SQL - More queries
+- 0x0F. Python - Object-relational mapping
 - 0x12. JavaScript - Warm up
 - 0x13. JavaScript - Objects, Scopes and Closures
 
@@ -229,6 +230,14 @@ Scope of variables
 - How to retrieve datas from multiple tables in one request
 - What are subqueries
 - What are `JOIN` and `UNION`
+
+### 0x0F. Python - Object-relational mapping
+- Why Python programming is awesome
+- How to connect to a MySQL database from a Python script
+- How to `SELECT` rows in a MySQL table from a Python script
+- How to `INSERT` rows in a MySQL table from a Python script
+- What ORM means
+- How to map a Python Class to a MySQL table
 
 ### 0x12. JavaScript - Warm up
 - Why JavaScript programming is amazing
