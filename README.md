@@ -1,28 +1,28 @@
 # holbertonschool-higher_level_programming
 This repository contains 20 projects:
-- 0x00. Python - Hello, World
-- 0x01. Python - if/else, loops, functions
-- 0x02. Python - import & modules
-- 0x03. Python - Data Structures: Lists, Tuples
-- 0x04. Python - More Data Structures: Set, Dictionary
-- 0x05. Python - Exceptions
-- 0x06. Python - Classes and Objects
-- 0x07. Python - Test-driven development
-- 0x08. Python - More Classes and Objects
-- 0x09. Python - Everything is object
-- 0x0A. Python - Inheritance
-- 0x0B. Python - Input/Output
-- 0x0C. Python - Almost a circle
-- 0x0D. SQL - Introduction
-- 0x0E. SQL - More queries
-- 0x0F. Python - Object-relational mapping
-- 0x10. Python - Network #0
-- 0x11. Python - Network #1
-- 0x12. JavaScript - Warm up
-- 0x13. JavaScript - Objects, Scopes and Closures
+- [0x00. Python - Hello, World](./0x00-python-hello_world/)
+- [0x01. Python - if/else, loops, functions](./0x01-python-if_else_loops_functions/)
+- [0x02. Python - import & modules](./0x02-python-import_modules/)
+- [0x03. Python - Data Structures: Lists, Tuples](./0x03-python-data_structures/)
+- [0x04. Python - More Data Structures: Set, Dictionary](./0x04-python-more_data_structures/)
+- [0x05. Python - Exceptions](./0x05-python-exceptions/)
+- [0x06. Python - Classes and Objects](./0x06-python-classes/)
+- [0x07. Python - Test-driven development](./0x07-python-test_driven_development/)
+- [0x08. Python - More Classes and Objects](./0x08-python-more_classes/)
+- [0x09. Python - Everything is object](./0x09-python-everything_is_object/)
+- [0x0A. Python - Inheritance](./0x0A-python-inheritance/)
+- [0x0B. Python - Input/Output](./0x0B-python-input_output/)
+- [0x0C. Python - Almost a circle](./0x0C-python-almost_a_circle/)
+- [0x0D. SQL - Introduction](./0x0D-SQL_introduction/)
+- [0x0E. SQL - More queries](./0x0E-SQL_more_queries/)
+- [0x0F. Python - Object-relational mapping](./0x0F-python-object_relational_mapping/)
+- [0x10. Python - Network #0](./0x10-python-network_0/)
+- [0x11. Python - Network #1](./0x11-python-network_1/)
+- [0x12. JavaScript - Warm up](./0x12-javascript-warm_up/)
+- [0x13. JavaScript - Objects, Scopes and Closures](./0x13-javascript_objects_scopes_closures/)
 
 ## Learning Objectives
-### 0x00. Python - Hello, World
+### [0x00. Python - Hello, World](./0x00-python-hello_world/)
 - Why Python programming is awesome
 - Who created PythonV
 - Who is Guido van Rossum
@@ -34,7 +34,7 @@ This repository contains 20 projects:
 - What are indexing and slicing in Python
 - What is the official Python coding style and how to check your code with `pycodestyle`
 
-### 0x01. Python - if/else, loops, functions
+### [0x01. Python - if/else, loops, functions](./0x01-python-if_else_loops_functions/)
 - Why Python programming is awesome
 - Why indentation is so important in Python
 - How to use the `if`,` if ... else` statements
@@ -52,7 +52,7 @@ Scope of variables
 - What’s a traceback
 - What are the arithmetic operators and how to use them
 
-### 0x02. Python - import & modules
+### [0x02. Python - import & modules](./0x02-python-import_modules/)
 - Why Python programming is awesome
 - How to import functions from another file
 - How to use imported functions
@@ -61,7 +61,7 @@ Scope of variables
 - How to prevent code in your script from being executed when imported
 - How to use command line arguments with your Python programs
 
-### 0x03. Python - Data Structures: Lists, Tuples
+### [0x03. Python - Data Structures: Lists, Tuples](./0x03-python-data_structures/)
 - Why Python programming is awesome
 - What are lists and how to use them
 - What are the differences and similarities between strings and lists
@@ -75,7 +75,7 @@ Scope of variables
 - What is sequence unpacking
 - What is the `del` statement and how to use it
 
-### 0x04. Python - More Data Structures: Set, Dictionary
+### [0x04. Python - More Data Structures: Set, Dictionary](./0x04-python-more_data_structures/)
 - Why Python programming is awesome
 - What are sets and how to use them
 - What are the most common methods of set and how to use them
@@ -88,7 +88,7 @@ Scope of variables
 - What is a lambda function
 - What are the map, reduce and filter functions
 
-### 0x05. Python - Exceptions
+### [0x05. Python - Exceptions](./0x05-python-exceptions/)
 - Why Python programming is awesome
 - What’s the difference between errors and exceptions
 - What are exceptions and how to use them
@@ -98,7 +98,7 @@ Scope of variables
 - How to raise a builtin exception
 - When do we need to implement a clean-up action after an exception
 
-### 0x06. Python - Classes and Objects
+### [0x06. Python - Classes and Objects](./0x06-python-classes/)
 - Why Python programming is awesome
 - What is OOP
 - “first-class everything”
@@ -120,7 +120,7 @@ Scope of variables
 - How does Python find the attributes of an object or class
 - How to use the `getattr` function
 
-### 0x07. Python - Test-driven development
+### [0x07. Python - Test-driven development](./0x07-python-test_driven_development/)
 - Why Python programming is awesome
 - What’s an interactive test
 - Why tests are important
@@ -129,7 +129,7 @@ Scope of variables
 - What are the basic option flags to create tests
 - How to find edge cases
 
-### 0x08. Python - More Classes and Objects
+### [0x08. Python - More Classes and Objects](./0x08-python-more_classes/)
 - Why Python programming is awesome
 - What is OOP
 - “first-class everything”
@@ -157,7 +157,7 @@ Scope of variables
 - How does Python find the attributes of an object or class
 - How to use the `getattr` function
 
-### 0x09. Python - Everything is object
+### [0x09. Python - Everything is object](./0x09-python-everything_is_object/)
 - Why Python programming is awesome
 - What is an object
 - What is the difference between a class and an object or instance
@@ -173,7 +173,7 @@ Scope of variables
 - What are the built-in immutable types
 - How does Python pass variables to functions
 
-### 0x0A. Python - Inheritance
+### [0x0A. Python - Inheritance](./0x0A-python-inheritance/)
 - Why Python programming is awesome
 - What is a superclass, baseclass or parentclass
 - What is a subclass
@@ -187,7 +187,7 @@ Scope of variables
 - What is the purpose of inheritance
 - What are, when and how to use `isinstance`, `issubclass`, `type` and `super` built-in functions
 
-### 0x0B. Python - Input/Output
+### [0x0B. Python - Input/Output](./0x0B-python-input_output/)
 - Why Python programming is awesome
 - How to open a file
 - How to write text in a file
@@ -202,7 +202,7 @@ Scope of variables
 - How to convert a Python data structure to a JSON string
 - How to convert a JSON string to a Python data structure
 
-### 0x0C. Python - Almost a circle
+### [0x0C. Python - Almost a circle](./0x0C-python-almost_a_circle/)
 - What is Unit testing and how to implement it in a large project
 - How to serialize and deserialize a Class
 - How to write and read a JSON file
@@ -210,7 +210,7 @@ Scope of variables
 - What is `**kwargs` and how to use it
 - How to handle named arguments in a function
 
-### 0x0D. SQL - Introduction
+### [0x0D. SQL - Introduction](./0x0D-SQL_introduction/)
 - What’s a database
 - What’s a relational database
 - What does SQL stand for
@@ -223,7 +223,7 @@ Scope of variables
 - What are `subqueries`
 - How to use MySQL functions
 
-### 0x0E. SQL - More queries
+### [0x0E. SQL - More queries](./0x0E-SQL_more_queries/)
 - How to create a new MySQL user
 - How to manage privileges for a user to a database or table
 - What’s a `PRIMARY KEY`
@@ -233,7 +233,7 @@ Scope of variables
 - What are subqueries
 - What are `JOIN` and `UNION`
 
-### 0x0F. Python - Object-relational mapping
+### [0x0F. Python - Object-relational mapping](./0x0F-python-object_relational_mapping/)
 - Why Python programming is awesome
 - How to connect to a MySQL database from a Python script
 - How to `SELECT` rows in a MySQL table from a Python script
@@ -241,7 +241,7 @@ Scope of variables
 - What ORM means
 - How to map a Python Class to a MySQL table
 
-### 0x10. Python - Network #0
+### [0x10. Python - Network #0](./0x10-python-network_0/)
 - What a URL is
 - What HTTP is
 - How to read a URL
@@ -260,7 +260,7 @@ Scope of variables
 - How to make a request with cURL
 - What happens when you type google.com in your browser (Application level)
 
-### 0x11. Python - Network #1
+### [0x11. Python - Network #1](./0x11-python-network_1/)
 - How to fetch internet resources with the Python package `urllib`
 - How to decode `urllib` body response
 - How to use the Python package `requests` #requestsiswaysimplerthanurllib
@@ -269,7 +269,7 @@ Scope of variables
 - How to fetch JSON resources
 - How to manipulate data from an external service
 
-### 0x12. JavaScript - Warm up
+### [0x12. JavaScript - Warm up](./0x12-javascript-warm_up/)
 - Why JavaScript programming is amazing
 - How to run a JavaScript script
 - How to create variables and constants
@@ -287,7 +287,7 @@ Scope of variables
 - How to manipulate dictionary
 - How to import a file
 
-### 0x13. JavaScript - Objects, Scopes and Closures
+### [0x13. JavaScript - Objects, Scopes and Closures](./0x13-javascript_objects_scopes_closures/)
 - Why JavaScript programming is amazing
 - How to create an object in JavaScript
 - What `this` means

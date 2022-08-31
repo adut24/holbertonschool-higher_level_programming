@@ -1,6 +1,6 @@
 # 0x05. Python - Exceptions
 
-## 0-safe_print_list.py
+## [0-safe_print_list.py](./0-safe_print_list.py)
 Write a function that prints x elements of a list.
 - Prototype: `def safe_print_list(my_list=[], x=0):`
 - `my_list` can contain any type (integer, string, etc.)
@@ -12,7 +12,7 @@ Write a function that prints x elements of a list.
 - You are not allowed to import any module
 - You are not allowed to use `len()`
 
-## 1-safe_print_integer.py
+## [1-safe_print_integer.py](./1-safe_print_integer.py)
 Write a function that prints an integer with `"{:d}".format()`.
 - Prototype: `def safe_print_integer(value):`
 - `value` can be any type (integer, string, etc.)
@@ -24,7 +24,7 @@ Write a function that prints an integer with `"{:d}".format()`.
 - You are not allowed to import any module
 - You are not allowed to use `type()`
 
-## 2-safe_print_list_integers.py
+## [2-safe_print_list_integers.py](./2-safe_print_list_integers.py)
 Write a function that prints the first x elements of a list and only integers.
 - Prototype: `def safe_print_list_integers(my_list=[], x=0):`
 - `my_list` can contain any type (integer, string, etc.)
@@ -37,7 +37,7 @@ Write a function that prints the first x elements of a list and only integers.
 - You are not allowed to import any module
 - You are not allowed to use `len()`
 
-## 3-safe_print_division.py
+## [3-safe_print_division.py](./3-safe_print_division.py)
 Write a function that divides 2 integers and prints the result.
 - Prototype: `def safe_print_division(a, b):`
 - You can assume that `a` and `b` are integers
@@ -47,7 +47,7 @@ Write a function that divides 2 integers and prints the result.
 - You have to use `"{}".format()` to print the result
 - You are not allowed to import any module
 
-## 4-list_division.py
+## [4-list_division.py](./4-list_division.py)
 Write a function that divides element by element 2 lists.
 - Prototype: `def list_division(my_list_1, my_list_2, list_length):`
 - `my_list_1` and `my_list_2` can contain any type (integer, string, etc.)
@@ -63,17 +63,17 @@ Write a function that divides element by element 2 lists.
 - You have to use `try: / except: / finally:`
 - You are not allowed to import any module
 
-## 5-raise_exception.py
+## [5-raise_exception.py](./5-raise_exception.py)
 Write a function that raises a type exception.
 - Prototype: `def raise_exception():`
 - You are not allowed to import any module
 
-## 6-raise_exception_msg.py
+## [6-raise_exception_msg.py](./6-raise_exception_msg.py)
 Write a function that raises a name exception with a message.
 - Prototype: `def raise_exception_msg(message=""):`
 - You are not allowed to import any module
 
-## 100-safe_print_integer_err.py
+## [100-safe_print_integer_err.py](./100-safe_print_integer_err.py)
 Write a function that prints an integer.
 - Prototype: `def safe_print_integer_err(value):`
 - `value` can be any type (integer, string, etc.)
@@ -84,7 +84,7 @@ Write a function that prints an integer.
 - You have to use `"{:d}".format()` to print as integer
 - You are not allowed to use `type()`
 
-## 101-safe_function.py
+## [101-safe_function.py](./101-safe_function.py)
 Write a function that executes a function safely.
 - Prototype: `def safe_function(fct, *args):`
 - You can assume `fct` will be always a pointer to a function
@@ -92,7 +92,7 @@ Write a function that executes a function safely.
 - Otherwise, returns `None` if something happens during the function and prints in `stderr` the error precede by `Exception:`
 - You have to use `try: / except:`
 
-## 102-magic_calculation.py
+## [102-magic_calculation.py](./102-magic_calculation.py)
 Write the Python function `def magic_calculation(a, b):` that does exactly the same as the following Python bytecode:
 ```
   3           0 LOAD_CONST               1 (0)

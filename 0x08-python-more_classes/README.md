@@ -1,10 +1,10 @@
 # 0x08. Python - More Classes and Objects
 
-## 0-rectangle.py
+## [0-rectangle.py](./0-rectangle.py)
 Write an empty class `Rectangle` that defines a rectangle:
 - You are not allowed to import any module
 
-## 1-rectangle.py
+## [1-rectangle.py](./1-rectangle.py)
 Write a class `Rectangle` that defines a rectangle by: (based on `0-rectangle.py`)
 - Private instance attribute: `width`:
 	- property `def width(self):` to retrieve it
@@ -19,7 +19,7 @@ Write a class `Rectangle` that defines a rectangle by: (based on `0-rectangle.py
 - Instantiation with optional `width` and `height`: `def __init__(self, width=0, height=0):`
 - You are not allowed to import any module
 
-## 2-rectangle.py
+## [2-rectangle.py](./2-rectangle.py)
 Write a class `Rectangle` that defines a rectangle by: (based on `1-rectangle.py`)
 - Private instance attribute: `width`:
 	- property `def width(self):` to retrieve it
@@ -37,7 +37,7 @@ Write a class `Rectangle` that defines a rectangle by: (based on `1-rectangle.py
 	- if `width` or `height` is equal to `0`, perimeter is equal to `0`
 - You are not allowed to import any module
 
-## 3-rectangle.py
+## [3-rectangle.py](./3-rectangle.py)
 Write a class `Rectangle` that defines a rectangle by: (based on `2-rectangle.py`)
 - Private instance attribute: `width`:
 	- property `def width(self):` to retrieve it
@@ -57,7 +57,7 @@ Write a class `Rectangle` that defines a rectangle by: (based on `2-rectangle.py
 	- if `width` or `height` is equal to 0, return an empty string
 - You are not allowed to import any module
 
-## 4-rectangle.py
+## [4-rectangle.py](./4-rectangle.py)
 Write a class `Rectangle` that defines a rectangle by: (based on `3-rectangle.py`)
 - Private instance attribute: `width`:
 	- property `def width(self):` to retrieve it
@@ -78,7 +78,7 @@ Write a class `Rectangle` that defines a rectangle by: (based on `3-rectangle.py
 - `repr()` should return a string representation of the rectangle to be able to recreate a new instance by using `eval()`
 - You are not allowed to import any module
 
-## 5-rectangle.py
+## [5-rectangle.py](./5-rectangle.py)
 Write a class `Rectangle` that defines a rectangle by: (based on `4-rectangle.py`)
 - Private instance attribute: `width`:
 	- property `def width(self):` to retrieve it
@@ -100,7 +100,7 @@ Write a class `Rectangle` that defines a rectangle by: (based on `4-rectangle.py
 - Print the message `Bye rectangle...` (`...` being 3 dots not ellipsis) when an instance of `Rectangle` is deleted
 - You are not allowed to import any module
 
-## 6-rectangle.py
+## [6-rectangle.py](./6-rectangle.py)
 Write a class `Rectangle` that defines a rectangle by: (based on `5-rectangle.py`)
 - Private instance attribute: `width`:
 	- property `def width(self):` to retrieve it
@@ -126,7 +126,7 @@ Write a class `Rectangle` that defines a rectangle by: (based on `5-rectangle.py
 - Print the message `Bye rectangle...` (`...` being 3 dots not ellipsis) when an instance of `Rectangle` is deleted
 - You are not allowed to import any module
 
-## 7-rectangle.py
+## [7-rectangle.py](./7-rectangle.py)
 Write a class `Rectangle` that defines a rectangle by: (based on `6-rectangle.py`)
 - Private instance attribute: `width`:
 	- property `def width(self):` to retrieve it
@@ -156,7 +156,7 @@ Write a class `Rectangle` that defines a rectangle by: (based on `6-rectangle.py
 - Print the message `Bye rectangle...` (`...` being 3 dots not ellipsis) when an instance of `Rectangle` is deleted
 - You are not allowed to import any module
 
-## 8-rectangle.py
+## [8-rectangle.py](./8-rectangle.py)
 Write a class `Rectangle` that defines a rectangle by: (based on `7-rectangle.py`)
 - Private instance attribute: `width`:
 	- property `def width(self):` to retrieve it
@@ -190,7 +190,7 @@ Write a class `Rectangle` that defines a rectangle by: (based on `7-rectangle.py
 	- Returns `rect_1` if both have the same area value
 - You are not allowed to import any module
 
-## 9-rectangle.py
+## [9-rectangle.py](./9-rectangle.py)
 Write a class `Rectangle` that defines a rectangle by: (based on `8-rectangle.py`)
 - Private instance attribute: `width`:
 	- property `def width(self):` to retrieve it

@@ -1,6 +1,6 @@
 # 0x0F. Python - Object-relational mapping
 
-## 0-select_states.py
+## [0-select_states.py](./0-select_states.py)
 Write a script that lists all `states` from the database `hbtn_0e_0_usa`:
 - Your script should take 3 arguments: `mysql username`, `mysql password` and `database name` (no argument validation needed)
 - You must use the module `MySQLdb` (`import MySQLdb`)
@@ -8,7 +8,7 @@ Write a script that lists all `states` from the database `hbtn_0e_0_usa`:
 - Results must be sorted in ascending order by `states.id`
 - Your code should not be executed when imported
 
-## 1-filter_states.py
+## [1-filter_states.py](./1-filter_states.py)
 Write a script that lists all `states` with a name starting with `N` (upper N) from the database `hbtn_0e_0_usa`:
 - Your script should take 3 arguments: `mysql username`, `mysql password` and `database name` (no argument validation needed)
 - You must use the module `MySQLdb` (`import MySQLdb`)
@@ -16,7 +16,7 @@ Write a script that lists all `states` with a name starting with `N` (upper N) f
 - Results must be sorted in ascending order by `states.id`
 - Your code should not be executed when imported
 
-## 2-my_filter_states.py
+## [2-my_filter_states.py](./2-my_filter_states.py)
 Write a script that takes in an argument and displays all values in the `states` table of `hbtn_0e_0_usa` where `name` matches the argument.
 - Your script should take 4 arguments: `mysql username`, `mysql password`, `database name` and `state name searched` (no argument validation needed)
 - You must use the module `MySQLdb` (`import MySQLdb`)
@@ -25,7 +25,7 @@ Write a script that takes in an argument and displays all values in the `states`
 - Results must be sorted in ascending order by `states.id`
 - Your code should not be executed when imported
 
-## 3-my_safe_filter_states.py
+## [3-my_safe_filter_states.py](./3-my_safe_filter_states.py)
 Wait, do you remember the previous task? Did you test `"Arizona'; TRUNCATE TABLE states ; SELECT * FROM states WHERE name = '"` as an input?
 ```
 guillaume@ubuntu:~/0x0F$ ./2-my_filter_states.py root root hbtn_0e_0_usa "Arizona'; TRUNCATE TABLE states ; SELECT * FROM states WHERE name = '"
@@ -44,7 +44,7 @@ Once again, write a script that takes in arguments and displays all values in th
 - Results must be sorted in ascending order by `states.id`
 - Your code should not be executed when imported
 
-## 4-cities_by_state.py
+## [4-cities_by_state.py](./4-cities_by_state.py)
 Write a script that lists all `cities` from the database `hbtn_0e_4_usa`
 - Your script should take 3 arguments: `mysql username`, `mysql password` and `database name`
 - You must use the module `MySQLdb` (`import MySQLdb`)
@@ -53,7 +53,7 @@ Write a script that lists all `cities` from the database `hbtn_0e_4_usa`
 - You can use only `execute()` once
 - Your code should not be executed when imported
 
-## 5-filter_cities.py
+## [5-filter_cities.py](./5-filter_cities.py)
 Write a script that takes in the name of a state as an argument and lists all `cities` of that state, using the database `hbtn_0e_4_usa`
 - Your script should take 4 arguments: `mysql username`, `mysql password`, `database name` and `state name` (SQL injection free!)
 - You must use the module `MySQLdb` (`import MySQLdb`)
@@ -62,7 +62,7 @@ Write a script that takes in the name of a state as an argument and lists all `c
 - You can use only `execute()` once
 - Your code should not be executed when imported
 
-## model_state.py
+## [model_state.py](./model_state.py)
 Write a python file that contains the class definition of a `State` and an instance `Base = declarative_base()`:
 - `State` class:
 	- inherits from `Base`
@@ -73,7 +73,7 @@ Write a python file that contains the class definition of a `State` and an insta
 - Your script should connect to a MySQL server running on `localhost` at port `3306`
 - **WARNING**: all classes who inherit from `Base` **must** be imported before calling `Base.metadata.create_all(engine)`
 
-## 7-model_state_fetch_all.py
+## [7-model_state_fetch_all.py](./7-model_state_fetch_all.py)
 Write a script that lists all `State` objects from the database `hbtn_0e_6_usa`
 - Your script should take 3 arguments: `mysql username`, `mysql password` and `database name`
 - You must use the module `SQLAlchemy`
@@ -82,7 +82,7 @@ Write a script that lists all `State` objects from the database `hbtn_0e_6_usa`
 - Results must be sorted in ascending order by `states.id`
 - Your code should not be executed when imported
 
-## 8-model_state_fetch_first.py
+## [8-model_state_fetch_first.py](./8-model_state_fetch_first.py)
 Write a script that prints the first `State` object from the database `hbtn_0e_6_usa`
 - Your script should take 3 arguments: `mysql username`, `mysql password` and `database name`
 - You must use the module `SQLAlchemy`
@@ -93,7 +93,7 @@ Write a script that prints the first `State` object from the database `hbtn_0e_6
 - If the table `states` is empty, print `Nothing` followed by a new line
 - Your code should not be executed when imported
 
-## 9-model_state_filter_a.py
+## [9-model_state_filter_a.py](./9-model_state_filter_a.py)
 Write a script that lists all `State` objects that contain the letter `a` from the database `hbtn_0e_6_usa`
 - Your script should take 3 arguments: `mysql username`, `mysql password` and `database name`
 - You must use the module `SQLAlchemy`
@@ -102,7 +102,7 @@ Write a script that lists all `State` objects that contain the letter `a` from t
 - Results must be sorted in ascending order by `states.id`
 - Your code should not be executed when imported
 
-## 10-model_state_my_get.py
+## [10-model_state_my_get.py](./10-model_state_my_get.py)
 Write a script that prints the `State` object with the `name` passed as argument from the database `hbtn_0e_6_usa`
 - Your script should take 4 arguments: `mysql username`, `mysql password`, `database name` and `state name to search` (SQL injection free)
 - You must use the module `SQLAlchemy`
@@ -113,7 +113,7 @@ Write a script that prints the `State` object with the `name` passed as argument
 - If no state has the name you searched for, display `Not found`
 - Your code should not be executed when imported
 
-## 11-model_state_insert.py
+## [11-model_state_insert.py](./11-model_state_insert.py)
 Write a script that adds the `State` object “Louisiana” to the database `hbtn_0e_6_usa`
 - Your script should take 3 arguments: `mysql username`, `mysql password` and `database name`
 - You must use the module `SQLAlchemy`
@@ -122,7 +122,7 @@ Write a script that adds the `State` object “Louisiana” to the database `hbt
 - Print the new `states.id` after creation
 - Your code should not be executed when imported
 
-## 12-model_state_update_id_2.py
+## [12-model_state_update_id_2.py](./12-model_state_update_id_2.py)
 Write a script that changes the name of a `State` object from the database `hbtn_0e_6_usa`
 - Your script should take 3 arguments: `mysql username`, `mysql password` and `database name`
 - You must use the module `SQLAlchemy`
@@ -131,7 +131,7 @@ Write a script that changes the name of a `State` object from the database `hbtn
 - Change the name of the `State` where `id = 2` to `New Mexico`
 - Your code should not be executed when imported
 
-## 13-model_state_delete_a.py
+## [13-model_state_delete_a.py](./13-model_state_delete_a.py)
 Write a script that deletes all `State` objects with a name containing the letter `a` from the database `hbtn_0e_6_usa`
 - Your script should take 3 arguments: `mysql username`, `mysql password` and `database name`
 - You must use the module `SQLAlchemy`
@@ -139,7 +139,7 @@ Write a script that deletes all `State` objects with a name containing the lette
 - Your script should connect to a MySQL server running on `localhost` at port `3306`
 - Your code should not be executed when imported
 
-## model_city.py, 14-model_city_fetch_by_state.py
+## [model_city.py](./model_city.py), [14-model_city_fetch_by_state.py](./14-model_city_fetch_by_state.py)
 Write a Python file similar to `model_state.py` named `model_city.py` that contains the class definition of a `City`.
 - `City` class:
 	- inherits from `Base` (imported from `model_state`)
@@ -158,7 +158,7 @@ Next, write a script `14-model_city_fetch_by_state.py` that prints all City obje
 - Results must be display as such: `<state name>: (<city id>) <city name>`
 - Your code should not be executed when imported
 
-## relationship_city.py, relationship_state.py, 100-relationship_states_cities.py
+## [relationship_city.py](./relationship_city.py), [relationship_state.py](./relationship_state.py), [100-relationship_states_cities.py](./100-relationship_states_cities.py)
 Improve the files `model_city.py` and `model_state.py`, and save them as `relationship_city.py` and `relationship_state.py`:
 - `City` class:
 	- No change
@@ -173,7 +173,7 @@ Write a script that creates the `State` “California” with the `City` “San 
 - You must use the `cities` relationship for all `State` objects
 - Your code should not be executed when imported
 
-## 101-relationship_states_cities_list.py
+## [101-relationship_states_cities_list.py](./101-relationship_states_cities_list.py)
 Write a script that lists all `State` objects, and corresponding `City` objects, contained in the database `hbtn_0e_101_usa`
 - Your script should take 3 arguments: `mysql username`, `mysql password` and `database name`
 - You must use the module `SQLAlchemy`
@@ -188,7 +188,7 @@ Write a script that lists all `State` objects, and corresponding `City` objects,
 <tabulation><city id>: <city name>
 ```
 
-## 102-relationship_cities_states_list.py
+## [102-relationship_cities_states_list.py](./102-relationship_cities_states_list.py)
 Write a script that lists all `City` objects from the database `hbtn_0e_101_usa`
 - Your script should take 3 arguments: `mysql username`, `mysql password` and `database name`
 - You must use the module `SQLAlchemy`

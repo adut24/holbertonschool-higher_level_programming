@@ -1,6 +1,6 @@
 # 0x07. Python - Test-driven development
 
-## 0-add_integer.py, tests/0-add_integer.txt
+## [0-add_integer.py](./0-add_integer.py), [tests/0-add_integer.txt](./tests/0-add_integer.txt)
 Write a function that adds 2 integers.
 - Prototype: `def add_integer(a, b=98):`
 - `a` and `b` must be integers or floats, otherwise raise a `TypeError` exception with the message `a must be an integer` or `b must be an integer`
@@ -8,7 +8,7 @@ Write a function that adds 2 integers.
 - Returns an integer: the addition of `a` and `b`
 - You are not allowed to import any module
 
-## 2-matrix_divided.py, tests/2-matrix_divided.txt
+## [2-matrix_divided.py](./2-matrix_divided.py), [tests/2-matrix_divided.txt](./tests/2-matrix_divided.txt)
 Write a function that divides all elements of a matrix.
 - Prototype: `def matrix_divided(matrix, div):`
 - `matrix` must be a list of lists of integers or floats, otherwise raise a `TypeError` exception with the message `matrix must be a matrix (list of lists) of integers/floats`
@@ -19,13 +19,13 @@ Write a function that divides all elements of a matrix.
 - Returns a new matrix
 - You are not allowed to import any module
 
-## 3-say_my_name.py, tests/3-say_my_name.txt
+## [3-say_my_name.py](./3-say_my_name.py), [tests/3-say_my_name.txt](./tests/3-say_my_name.txt)
 Write a function that prints `My name is <first name> <last name>`
 - Prototype: `def say_my_name(first_name, last_name=""):`
 - `first_name` and `last_name` must be strings otherwise, raise a `TypeError` exception with the message `first_name must be a string` or `last_name must be a string`
 - You are not allowed to import any module
 
-## 4-print_square.py, tests/4-print_square.txt
+## [4-print_square.py](./4-print_square.py), [tests/4-print_square.txt](./tests/4-print_square.txt)
 Write a function that prints a square with the character `#`.
 - Prototype: `def print_square(size):`
 - `size` is the size length of the square
@@ -33,14 +33,14 @@ Write a function that prints a square with the character `#`.
 - if `size` is less than `0`, raise a `ValueError` exception with the message `size must be >= 0`
 - You are not allowed to import any module
 
-## 5-text_indentation.py, tests/5-text_indentation.txt
+## [5-text_indentation.py](./5-text_indentation.py), [tests/5-text_indentation.txt](./tests/5-text_indentation.txt)
 Write a function that prints a text with 2 new lines after each of these characters: `.`, `?` and `:`
 - Prototype: `def text_indentation(text):`
 - `text` must be a string, otherwise raise a `TypeError` exception with the message `text must be a string`
 - There should be no space at the beginning or at the end of each printed line
 - You are not allowed to import any module
 
-## tests/6-max_integer_test.py
+## [tests/6-max_integer_test.py](./tests/6-max_integer_test.py)
 Since the beginning you have been creating “Interactive tests”. For this exercise, you will add Unittests.
 
 In this task, you will write unittests for the function `def max_integer(list=[]):`.
