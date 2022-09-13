@@ -3,7 +3,7 @@ const axios = require('axios').default;
 const dict = {};
 axios.get(process.argv[2])
   .then(function (response) {
-    response.data.forEach(function (task, idx) {
+    response.data.forEach(function (task) {
       if (dict[task.userId] === undefined) {
         dict[task.userId] = 0;
       }
