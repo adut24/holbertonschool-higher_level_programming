@@ -12,4 +12,7 @@ axios.get(process.argv[2])
       }
     });
     console.log(dict);
+  })
+  .catch(function (error) {
+    console.log(error);
   });
