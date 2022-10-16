@@ -1,5 +1,5 @@
 # holbertonschool-higher_level_programming
-This repository contains 20 projects:
+This repository contains 22 projects:
 - [0x00. Python - Hello, World](./0x00-python-hello_world/)
 - [0x01. Python - if/else, loops, functions](./0x01-python-if_else_loops_functions/)
 - [0x02. Python - import & modules](./0x02-python-import_modules/)
@@ -21,6 +21,7 @@ This repository contains 20 projects:
 - [0x12. JavaScript - Warm up](./0x12-javascript-warm_up/)
 - [0x13. JavaScript - Objects, Scopes and Closures](./0x13-javascript_objects_scopes_closures/)
 - [0x14. JavaScript - Web scraping](./0x14-javascript-web_scraping/)
+- [0x15. JavaScript - Web jQuery](./0x15-javascript-web_jquery/)
 
 ## Learning Objectives
 ### [0x00. Python - Hello, World](./0x00-python-hello_world/)
@@ -303,3 +304,16 @@ Scope of variables
 - How to manipulate JSON data
 - How to use `axios` and fetch API
 - How to read and write a file using `fs` module
+
+### [0x15. JavaScript - Web jQuery](./0x15-javascript-web_jquery/)
+- Why JQuery make front-end programming so easy (don’t forget to tweet today, with the hashtag #ilovejquery :))
+- How to select HTML elements in JavaScript
+- How to select HTML elements with JQuery
+- What are differences between `ID`, `class` and `tag name` selectors
+- How to modify an HTML element style
+- How to get and update an HTML element content
+- How to modify the DOM
+- How to make a `GET` request with JQuery Ajax
+- How to make a `POST` request with JQuery Ajax
+- How to listen/bind to DOM events
+- How to listen/bind to user events
