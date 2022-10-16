@@ -20,6 +20,7 @@ This repository contains 20 projects:
 - [0x11. Python - Network #1](./0x11-python-network_1/)
 - [0x12. JavaScript - Warm up](./0x12-javascript-warm_up/)
 - [0x13. JavaScript - Objects, Scopes and Closures](./0x13-javascript_objects_scopes_closures/)
+- [0x14. JavaScript - Web scraping](./0x14-javascript-web_scraping/)
 
 ## Learning Objectives
 ### [0x00. Python - Hello, World](./0x00-python-hello_world/)
@@ -296,3 +297,9 @@ Scope of variables
 - What is a closure
 - What is a prototype
 - How to inherit an object from another
+
+### [0x14. JavaScript - Web scraping](./0x14-javascript-web_scraping/)
+- Why JavaScript programming is amazing
+- How to manipulate JSON data
+- How to use `axios` and fetch API
+- How to read and write a file using `fs` module
