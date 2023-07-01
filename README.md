@@ -1,5 +1,18 @@
 # holbertonschool-higher_level_programming
-This repository contains 22 projects:
+
+![High Level Programming Languages](https://railsware.com/blog/wp-content/uploads/2018/06/vs2-illustration.jpg)
+
+## What is this repository for?
+This repository is used for the coding projects at Holberton School to initiate us at high level programming languages. The languages mainly used in these projects are:
+- Python3 (mainly)
+- SQL
+- NodeJS
+- Ruby (a bit)
+
+In these projects, we also study what Object-Oriented Programming is and its usage. On the long run, it enables us to work with libraries and frameworks such as Flask, SQLAlchemy or JQuery to work on the back end and front end of a site for the AirBnB clone projects series.
+
+## How many projects are there?
+There are a total of 22 projects:
 - [0x00. Python - Hello, World](./0x00-python-hello_world/)
 - [0x01. Python - if/else, loops, functions](./0x01-python-if_else_loops_functions/)
 - [0x02. Python - import & modules](./0x02-python-import_modules/)
@@ -26,7 +39,7 @@ This repository contains 22 projects:
 ## Learning Objectives
 ### [0x00. Python - Hello, World](./0x00-python-hello_world/)
 - Why Python programming is awesome
-- Who created PythonV
+- Who created Python
 - Who is Guido van Rossum
 - Where does the name ‘Python’ come from
 - What is the Zen of Python
