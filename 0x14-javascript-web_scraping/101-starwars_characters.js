@@ -1,18 +1,22 @@
 #!/usr/bin/node
 const axios = require('axios').default;
-function getName (url) {
-  return axios.get(url)
-    .then(response => {
-      console.log(response.data.name);
-    });
+
+/**
+ * Get the name of the character
+ * @param {String} character_url url of the character in the API
+ */
+async function getName(character_url) {
+  const response = await axios.get(character_url);
+  console.log(response.data.name);
 }
 
 const displayData = async () => {
   try {
-    const response = await axios.get('https://swapi-api.hbtn.io/api/films/' + process.argv[2]);
-    for (const character of response.data.characters) {
-      await getName(character);
-    }
+    const filmId = process.argv[2];
+    const response = await axios.get(`https://swapi-api.hbtn.io/api/films/${filmId}`);
+    const characters = response.data.characters;
+
+    await Promise.all(characters.map(character => getName(character)));
   } catch (err) {
     console.log('Found error');
   }

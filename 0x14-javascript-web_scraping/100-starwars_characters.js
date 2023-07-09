@@ -1,7 +1,12 @@
 #!/usr/bin/node
 const axios = require('axios').default;
-function getName (url) {
-  axios.get(url)
+
+/**
+ * Get the name of the character
+ * @param {String} character_url url of the character in the API
+ */
+function getName (character_url) {
+  axios.get(character_url)
     .then(response => {
       console.log(response.data.name);
     });

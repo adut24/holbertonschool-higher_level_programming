@@ -1,5 +1,5 @@
-document.addEventListener('DOMContentLoaded', () => {
-  $.get('https://stefanbohacek.com/hellosalut/?lang=fr', function (data) {
+$(document).ready(() => {
+  $.get('https://stefanbohacek.com/hellosalut/?lang=fr', data => {
     $('#hello').text(data.hello);
   });
 });
